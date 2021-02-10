@@ -21,8 +21,8 @@ function App() {
         Browser Screen Resolution <br /> (for media queries)
       </h1>
       <div>
-        <h2>Height: {windowHeight}</h2>
-        <h2>Width: {windowWidth}</h2>
+        <h2>Height: {windowHeight}px</h2>
+        <h2>Width: {windowWidth}px</h2>
       </div>
     </div>
   );
