@@ -1,0 +1,56 @@
+/* Global Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #1b1b1b;
+  color: #e9c08a;
+  border: 0.8rem solid #e9c08a;
+  overflow: hidden;
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+.box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  border: 0.6rem solid #e9c08a;
+  text-align: center;
+  font-size: 4rem;
+  background: #1b1b1b;
+  color: #e9c08a;
+  padding: 1rem 4rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 70%;
+  }
+} ;

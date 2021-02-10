@@ -1,3 +1,4 @@
+import "./css/App.scss";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -15,10 +16,14 @@ function App() {
   }, [windowWidth, windowHeight]);
 
   return (
-    <div>
-      <h1>Screen Resolution</h1>
-      <h2>Height:{windowHeight}</h2>
-      <h2>Width:{windowWidth}</h2>
+    <div className="box">
+      <h1>
+        Browser Screen Resolution <br /> (for media queries)
+      </h1>
+      <div>
+        <h2>Height: {windowHeight}</h2>
+        <h2>Width: {windowWidth}</h2>
+      </div>
     </div>
   );
 }
