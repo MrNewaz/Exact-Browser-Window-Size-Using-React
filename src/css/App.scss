@@ -17,6 +17,11 @@ body {
   color: #e9c08a;
   border: 0.8rem solid #e9c08a;
   overflow: hidden;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
   a {
     text-decoration: none;
   }
